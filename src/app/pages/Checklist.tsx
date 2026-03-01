@@ -6,8 +6,7 @@ import { clsx } from 'clsx';
 import { toast } from 'sonner';
 import { HeroBanner } from '../components/HeroBanner';
 import { PageLayout } from '../components/PageLayout';
-import CowKeys from 'figma:asset/bdccf4edea8d55dbf97af758ea3685a5181ee7e3.png';
-
+const CowKeys = '/banners/CowKeys.png';
 export default function Checklist() {
   const { checklistTasks, updateChecklistTask, addChecklistTask, removeChecklistTask } = useStore();
   const [newTaskTitle, setNewTaskTitle] = useState('');

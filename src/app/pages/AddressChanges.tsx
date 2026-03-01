@@ -6,8 +6,7 @@ import { clsx } from 'clsx';
 import { toast } from 'sonner';
 import { HeroBanner } from '../components/HeroBanner';
 import { PageLayout } from '../components/PageLayout';
-import AddressCow from 'figma:asset/c6934061d64ecf7d79507c239d2e684cf9cbe466.png';
-
+const AddressCow = '/banners/AddressCow.png';
 export default function AddressChanges() {
   const { addressChanges, updateAddressChange, addAddressChange, removeAddressChange } = useStore();
   const [expandedCategory, setExpandedCategory] = useState<string | null>('Bank/Finance');

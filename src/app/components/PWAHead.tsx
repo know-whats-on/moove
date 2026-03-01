@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
-import appIcon from 'figma:asset/f25410810a14a583f12e1bc52aefa8ae42125b7d.png';
-
+const appIcon = '/icons/AppIcon.png';
 export function PWAHead() {
   useEffect(() => {
     // 1. Update Favicon and Apple Touch Icon

@@ -7,9 +7,8 @@ import { AddressSearch } from '../components/AddressSearch';
 import { useState, useRef } from 'react';
 import { PageLayout } from '../components/PageLayout';
 import { HeroBanner } from '../components/HeroBanner';
-import CowSettings from 'figma:asset/af8669aa2679903a65248f255914b934b8fd2dae.png';
-import MooAbout from 'figma:asset/f25410810a14a583f12e1bc52aefa8ae42125b7d.png';
-
+const CowSettings = '/banners/CowSettings.png';
+const MooAbout = '/icons/AppIcon.png';
 export default function Settings() {
   const { 
     resetData, 

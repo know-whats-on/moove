@@ -10,8 +10,7 @@ import { clsx } from 'clsx';
 import { HeroBanner } from '../components/HeroBanner';
 import { PageLayout } from '../components/PageLayout';
 import { EmptyBoxIcon, PackingBoxIcon, PackedBoxIcon, UnpackingBoxIcon, UnpackedBoxIcon } from '../components/BoxIcons';
-import BoxCow from 'figma:asset/d3900a63192abe7cf8ec22b8863804cbacd50a0e.png';
-
+const BoxCow = '/banners/BoxCow.png';
 export default function Boxes() {
   const { boxes, items, addBox, removeBox, updateBox, moveMode, setMoveMode } = useStore();
   const [searchTerm, setSearchTerm] = useState('');

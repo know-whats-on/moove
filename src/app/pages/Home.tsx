@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { useStore } from '../store';
 import { PageLayout } from '../components/PageLayout';
 import { HeroBanner } from '../components/HeroBanner';
-import HomeCow from 'figma:asset/af9ac5fb38fe021387cf8747801e9dccc4a4e78e.png';
+const HomeCow = '/banners/HomeCow.png';
 import { Link, useNavigate } from 'react-router';
 import clsx from 'clsx';
 import { Drawer } from 'vaul';
